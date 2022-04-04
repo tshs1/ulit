@@ -1,0 +1,104 @@
+
+html,
+.background {
+     height: 100%;
+     background-repeat: no-repeat;
+    margin: auto;
+    background-size:100% 100%;
+/* background: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%); */
+background-image: url('./../images/talavera.png')
+}
+.bgcolor {
+    margin: auto;
+    /* margin-top: 5%; */
+    margin-bottom: 5%;
+    height: 40%;
+    width: 60%;
+    object-fit: cover;
+/* background: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child {
+    border-radius: 25px;
+    margin: auto;
+    background-color: rgb(10, 67, 253);
+    /* background-color: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%); */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorT{
+    /* background-color: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%); */
+    background-color: #fffb00;
+
+}
+.rounded{
+    border-radius: 25px;
+    border: 2px ;
+    padding: 20px;
+}
+.cardC{
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%);
+
+}
+.bodyT{
+    margin: auto;
+    background: rgb(63,177,251);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cover{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width:8.5in;
+    height:14in;
+    background-color: white;
+    /* background: linear-gradient(0deg, rgba(34,124,195,1) 0%, rgba(45,234,253,1) 100%); */
+}
+.bodySF{
+    /* margin-top: 3%; */
+    background-color: blue;
+    width:100%;
+    height:100%;
+}
+.header{
+    /* background-color: red; */
+    width:100%;
+    height: 7%;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    /* position: relative; */
+    /* background-image: url('../images/header.png'); */
+    background-size: 100% 100%;
+    /* background-color: rgb(0, 255, 42); */
+}
+#img1{
+    width:15%;
+    height: 100%;
+    margin-right: 30px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+#img2{
+    width:15%;
+    height: 100%;
+    margin-left: 30px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.test{  
+    margin-top: 3%;
+}
